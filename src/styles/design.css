@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+
+@font-face {
+  font-family: 'russo';
+  src: url('src/fonts/RussoOne-Regular.ttf') format("typetrue");
+}
+
+body, html {
+  max-width: 100%;
+  height: 200%;
+  background: #1D1B26;
+  padding: 0;
+  margin: 0;
+  cursor: default;
+}
+
+/* ВЕРХНЯЯ СТРОКА */
+.up-content {
+  display: block;
+  margin: 0;
+  width: 100%;
+  height: 50px;
+  margin-top: 0;
+  text-align: center;
+  background-color: rgba(58, 60, 69, 0.159);
+}
+.up-text {
+  display: block;
+  padding-top: 10px;
+  position: sticky;
+  color: white;
+  font-size: x-large;
+  font-family: 'russo', sans-serif;
+  letter-spacing: 2px;
+  text-shadow: 0 0 20px white;
+}
+.up-text:hover {
+  text-shadow: 0 0 30px white;
+}
+
+
+/* ОСНОВНОЙ КОНТЕНТ */
+.main-div {
+  max-width: 80%;
+  position: relative;
+}
+
+.main-image {
+  max-width: 300px;
+  margin: 100px;
+  border-radius: 20px;
+  float: left;
+  display: block;
+}
+.main-image:hover {
+  box-shadow: 0 0 10px rgba(191, 0, 255, 0.97);
+}
+
+.main-content {
+  color: rgb(205, 197, 225);
+  background-color: rgb(59, 56, 75);
+  border-radius: 20px;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: large;
+  text-align: center;
+  max-width: 50%;
+  max-height: 500px;
+  margin-top: 140px;
+}
+.main-content p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.main-content:hover {
+  box-shadow: 0 0 10px rgba(191, 0, 255, 0.97);
+}
+.main-content-h {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+}
+
+.main-content-btns {
+  display: flex;
+  margin-top: 12%;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+#button-projects {
+  margin-right: 60px;
+}
+#button-blog {
+  margin-left: 60px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.border-button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  position: relative;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, .4);
+  border-radius: 20px;
+  background: none;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.border-button:hover {
+  box-shadow: 0 0 10px white;
+}
+
+.main-content-projects {
+  margin-top: 6%;
+  margin-left: 10%;
+  padding: 10px;
+}
+.main-content-projects i {
+  color: white;
+  font-size: x-large;
+  width: 10px;
+}
+#main-content-pin {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: xx-large;
+  font-family: 'Island Moments', cursive;
+  letter-spacing: 2px;
+  margin-left: 20px;
+}
+.main-content-projects:hover {
+  /* border-radius: 10px;
+  width: 29%;
+  box-shadow: 0 0 10px white; */
+  text-shadow: 0 0 5px white;
+}
+.projects-frame {
+  border: 3px solid rgba(191, 0, 255, 0.97);
+  border-radius: 20px;
+  width: 300px;
+  height: 400px;
+  box-shadow: 0 0 10px rgba(223, 143, 249, 0.97);
+}
+.projects-set {
+  margin-left: 10%;
+  position: absolute;
+}
+
+/* ПЕРВЫЙ ПРОЕКТ */
+.first-project-set {
+  margin-top: 1%;
+}
+.first-project-frame {
+  width: 700px;
+  height: 400px;
+  border: 2px solid rgba(191, 0, 255, 0.97);
+  border-radius: 20px;
+  margin-left: 40%;
+  margin-top: 18px;
+}
+.first-project-name {
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: xx-large;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.first-project-name:hover {
+  text-shadow: 0 0 10px white;
+}
+.first-project-description {
+  text-align: center;
+  justify-content: center;
+  color: rgb(169, 168, 168);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  padding: 5px;
+}
+
+/* ВТОРОЙ ПРОЕКТ */
+.second-project-set {
+  margin-top: 10%;
+}
+.second-project-frame {
+  width: 700px;
+  height: 400px;
+  border: 2px solid rgba(191, 0, 255, 0.97);
+  border-radius: 20px;
+  margin-left: 40%;
+  margin-top: 10%;
+}
+.second-project-name {
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: xx-large;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.second-project-name:hover {
+  text-shadow: 0 0 10px white;
+}
+.second-project-description {
+  text-align: center;
+  justify-content: center;
+  color: rgb(169, 168, 168);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  padding: 5px;
+}
+
+/* ТРЕТИЙ ПРОЕКТ */
+.third-project-set {
+  margin-top: 10%;
+}
+.third-project-frame {
+  width: 700px;
+  height: 400px;
+  border: 2px solid rgba(191, 0, 255, 0.97);
+  border-radius: 20px;
+  margin-left: 40%;
+  margin-top: 10%;
+}
+.third-project-name {
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: xx-large;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.third-project-name:hover {
+  text-shadow: 0 0 10px white;
+}
+.third-project-description {
+  text-align: center;
+  justify-content: center;
+  color: rgb(169, 168, 168);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  padding: 5px;
+}
+
+
+/* НИЖНЕЕ ПОЛЕ */
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 5%;
+  bottom: 0;
+  width: 100%;
+  height: 350px;
+  background-color: rgba(82, 82, 83, 0.159);
+}
+.footer-social {
+  list-style-type: none;
+  justify-content: space-between;
+  color: white;
+  display: flex;
+  font-size: xx-large;
+  width: 350px;
+}
+a {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+.footer-social-frame {
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-github:hover {
+  color: #171515;
+  border-color: #171515;
+  box-shadow: 0 0 20px #171515;
+}
+.footer-vk:hover {
+  color: rgba(0, 119, 255, 1);
+  border-color: rgba(0, 119, 255, 1);
+  box-shadow: 0 0 20px rgba(0, 119, 255, 1);
+}
+.footer-telegram:hover {
+  color: rgba(42, 171, 238, 1);
+  border-color: rgba(42, 171, 238, 1);
+  box-shadow: 0 0 20px rgba(42, 171, 238, 1);
+}
+.footer-mynzzz {
+  margin-top: 100px;
+  text-align: center;
+  color: rgba(255, 255, 255, .4);
+  margin-left: 2%;
+}
