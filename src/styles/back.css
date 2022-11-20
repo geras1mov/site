@@ -1,0 +1,35 @@
+body, html {
+  background: #1D1B26;
+}
+
+.container {
+  display: block;
+  margin: 0;
+}
+
+.button {
+  margin-top: 20%;
+  text-align: center;
+}
+
+.button-item {
+  border: 3px solid rgb(222, 134, 230);
+  border-radius: 40px;
+  color: rgb(172, 21, 227);
+  padding: 40px;
+  font-size: 100px;
+  text-transform: uppercase;
+  box-shadow: 0 0 20px rgb(204, 61, 239);
+}
+.button-item:hover {
+  box-shadow: 0 0 40px rgb(174, 0, 249)
+}
+
+a {
+  list-style-type: none;
+  text-decoration: none;
+  text-shadow: 0 0 50px rgb(126, 16, 205);
+}
+a:hover {
+  text-shadow: 0 0 100px rgb(149, 0, 255);
+}

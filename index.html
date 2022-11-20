@@ -3,152 +3,110 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@MyNzzz</title>
 
     <link rel="stylesheet" href="src/styles/design.css">
-    <link rel="stylesheet" href="src/styles/adaptive.css">
     <script src="https://kit.fontawesome.com/c83f4d8ec9.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
-    <!-- up -->
     <div class="up-content">
-      <b class="up-text">ВСЕГДА ВЕРЬ В СЕБЯ</b>
+        <b class="up-text">ВСЕГДА ВЕРЬ В СЕБЯ</b>
     </div>
-
-    <!-- main -->
-    <div class="main-div">
-      <img src="src/images/photo.JPG" alt="me" class="main-image"/>
-    </div>
-    <div class="main-content">
-      <h1 class="main-content-h">Обо мне</h1>
-      <p>
-        Простой 17-и летний парень, проживающий в Российской Федерации
-      </p>
-      <p>
-        Учусь в колледже на веб-разработчика в своём городе
-      </p>
-      <p>
-        <i>Зовут меня Макс, если что</i>
-      </p>
-      <p>
-        Обожаю слушать музыку, смотреть фильмы, писать сайты и есть шаурму
-      </p>
-    </div>
-
-    
-    <div class="main-content-btns">
-      <a href="src/pages/projects.html" id="button-projects" class="border-button" onclick="buttonProjects()">
-        Проекты
-      </a>
-      
-      <a href="src/pages/social.html" id="button-social" class="border-button">
-        Соцсети
-      </a>
-      
-      <a href="src/pages/blog.html" id="button-blog" class="border-button">
-        Блог
-      </a>
-    </div>
-
-
-    <div class="main-content-projects">
-      <i class="fa-solid fa-thumbtack"></i><i id="main-content-pin">Закреплённые проекты</i>
-    </div>
-
-
-    <!-- ПЕРВЫЙ ПРОЕКТ -->
-    <div class="first-project-set projects-set">
-      <a href="https://is-mynzzz.github.io/switch/" target="_blank">
-        <img src="src/images/switch-logo.jpg"
-          alt="switch" 
-          width="300px" 
-          height="400px" 
-          class="projects-frame">
-      </a>
-    </div>
-    
-    <div class="first-project-frame">
-      <h3 class="first-project-name">Выключатель</h3>
-      <p class="first-project-description">
-        Данный сайт был создан ради забавы. Он подразумевает "выключатель света" в браузере
-      </p>
-      <p class="first-project-description">
-        Как пользоваться? Просто нажимай на кнопку и играйся со светом сколько тебе угодно))
-      </p>
-    </div>
-
-
-    <!-- ВТОРОЙ ПРОЕКТ -->
-    <div class="projects-set second-project-set">
-      <a href="https://is-mynzzz.github.io/switch/" target="_blank">
-        <img src="src/images/switch-logo.jpg"
-          alt="switch" 
-          width="300px" 
-          height="400px" 
-          class="projects-frame">
-      </a>
-    </div>
-    
-    <div class="second-project-frame">
-      <h3 class="second-project-name">Выключатель</h3>
-      <p class="second-project-description">
-        Данный сайт был создан ради забавы. Он подразумевает "выключатель света" в браузере
-      </p>
-      <p class="second-project-description">
-        Как пользоваться? Просто нажимай на кнопку и играйся со светом сколько тебе угодно))
-      </p>
-    </div>
-
-
-    <!-- ТРЕТИЙ ПРОЕКТ -->
-    <div class="projects-set third-project-set">
-      <a href="https://is-mynzzz.github.io/switch/" target="_blank">
-        <img src="src/images/switch-logo.jpg"
-          alt="switch" 
-          width="300px" 
-          height="400px" 
-          class="projects-frame">
-      </a>
-    </div>
-    
-    <div class="third-project-frame">
-      <h3 class="third-project-name">Выключатель</h3>
-      <p class="third-project-description">
-        Данный сайт был создан ради забавы. Он подразумевает "выключатель света" в браузере
-      </p>
-      <p class="third-project-description">
-        Как пользоваться? Просто нажимай на кнопку и играйся со светом сколько тебе угодно))
-      </p>
-    </div>
-
-
-
-    <!-- footer -->
-    <div class="footer-content">
-      <ul class="footer-social">
-        <a href="https://github.com/is-mynzzz" target="_blank">
-          <li class="footer-github footer-social-frame">
-            <i class="fa-brands fa-github"></i>
-          </li>
-        </a>
-        <a href="https://vk.com/mynzzz" target="_blank">
-          <li class="footer-vk footer-social-frame">
-            <i class="fa-brands fa-vk"></i>
-          </li>
-        </a>
-        <a href="https://t.me/geras1mov" target="_blank">
-          <li class="footer-telegram footer-social-frame">
-            <i class="fa-brands fa-telegram"></i>
-          </li>
-        </a>
-      </ul>
-    </div>
-
-    
-
-    <div class="footer-mynzzz">
-      <p>© MyNzzz</p>
+    <div class="container">
+      <div class="page">
+        <div class="main-content">
+          <div class="avatar">
+            <img src="src/images/photo.JPG">
+          </div>
+          <div class="description">
+            <h1>Обо мне</h1>
+            <p>
+              Простой <b>17</b>-и летний парень, проживающий в Российской Федерации
+            </p>
+            <p>
+              Учусь в колледже на веб-разработчика в своём городе
+            </p>
+            <p>
+              <i>Зовут меня <b>Макс</b></i>
+            </p>
+            <p>
+              Обожаю слушать музыку, смотреть фильмы, писать сайты и есть шаурму
+            </p>
+          </div>
+          <div class="buttons">
+            <a href="src/pages/projects.html" class="_button">Проекты</a>
+            <a href="src/pages/social.html" class="_button">Соцсети</a>
+            <a href="src/pages/source.html" class="_button">Ресурсы</a>
+          </div>
+          <div class="pinned-projects">
+            <div class="pp-header">
+              <i class="fa-solid fa-thumbtack"><b>Закреплённые проекты</b></i>
+            </div>
+            <div class="pp-item">
+              <div class="pp-image">
+                <a href="https://is-mynzzz.github.io/switch" target="_blank">
+                  <img src="src/images/switch-logo.jpg" width="100%">
+                </a>
+            </div>
+              <div class="pp-description">
+                <b>Выключатель</b>
+                <p>Данный сайт был сделан ради развлечения и подразумевает "выключатель света" в браузере</p>
+                <p>Как им пользоваться?</p>
+                <p>Просто нажимай на кнопку и балуйся со светом сколько душе угодно</p>
+              </div>
+            </div>
+            <div class="pp-item">
+              <div class="pp-image">
+                <a href="https://is-mynzzz.github.io/switch" target="_blank">
+                  <img src="src/images/switch-logo.jpg" width="100%">
+                </a>
+            </div>
+              <div class="pp-description">
+                <b>Выключатель</b>
+                <p>Данный сайт был сделан ради развлечения и подразумевает "выключатель света" в браузере</p>
+                <p>Как им пользоваться?</p>
+                <p>Просто нажимай на кнопку и балуйся со светом сколько душе угодно</p>
+              </div>
+            </div>
+            <div class="pp-item">
+              <div class="pp-image">
+                <a href="https://is-mynzzz.github.io/switch" target="_blank">
+                  <img src="src/images/switch-logo.jpg" width="100%">
+                </a>
+            </div>
+              <div class="pp-description">
+                <b>Выключатель</b>
+                <p>Данный сайт был сделан ради развлечения и подразумевает "выключатель света" в браузере</p>
+                <p>Как им пользоваться?</p>
+                <p>Просто нажимай на кнопку и балуйся со светом сколько душе угодно</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="social">
+          <ul class="footer-social">
+            <a href="https://github.com/is-mynzzz" target="_blank">
+              <li class="footer-github social-frame">
+                <i class="fa-brands fa-github"></i>
+              </li>
+            </a>
+            <a href="https://vk.com/mynzzz" target="_blank">
+              <li class="footer-vk social-frame">
+                <i class="fa-brands fa-vk"></i>
+              </li>
+            </a>
+            <a href="https://t.me/geras1mov" target="_blank">
+              <li class="footer-telegram social-frame">
+                <i class="fa-brands fa-telegram"></i>
+              </li>
+            </a>
+          </ul>
+        </div>
+      </div>
     </div>
   </body>
 </html>
