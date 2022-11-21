@@ -1,2 +1,2 @@
 # САЙТ ПОРФТОЛИО (БЕТА)
-https://is-mynzzz.github.io/portfolio/
+https://is-mynzzz.github.io/site/
