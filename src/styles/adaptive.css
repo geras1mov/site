@@ -257,6 +257,9 @@
   .pp-description {
     margin-left: 15px;
   }
+  .pp-description p {
+    font-size: 12px;
+  }
 }
 
 
