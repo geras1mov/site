@@ -1,10 +1,14 @@
-body, html {
+body {
   background: #1D1B26;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
 .container {
-  display: block;
-  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button {
@@ -32,4 +36,35 @@ a {
 }
 a:hover {
   text-shadow: 0 0 100px rgb(149, 0, 255);
+}
+
+
+
+/* ADAPVITE */
+
+@media screen and (max-width: 770px) {
+  .button {
+    margin-top: 35%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .button {
+    margin-top: 45%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .button {
+    margin-top: 55%;
+  }
+  .button-item {
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .button {
+    margin-top: 65%;
+  }
+  .button-item {
+    font-size: 50px;
+  }
 }
