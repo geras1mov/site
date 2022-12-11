@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="src/styles/design.css">
     <link rel="stylesheet" href="src/styles/adaptive.css">
     <script src="https://kit.fontawesome.com/c83f4d8ec9.js" crossorigin="anonymous"></script>
+    <script src="src/scripts/modal-social.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -37,9 +38,46 @@
             </p>
           </div>
           <div class="buttons">
-            <a href="src/pages/projects.html" class="_button">Проекты</a>
-            <a href="src/pages/social.html" class="_button">Соцсети</a>
-            <a href="src/pages/source.html" class="_button">Ресурсы</a>
+            <a href="https://github.com/geras1mov?tab=repositories" target="_blank" class="_button">Проекты</a>
+            <button id="social-button" class="_button">Соцсети</button>
+            <a href="" class="_button">Ресурсы</a>
+          </div>
+          <div class="modal-social">
+            <button id="ms-close" class="modal-social__close">X</button>
+            <div class="modal-social__content">
+              <ul class="modal-social__content">
+                <a href="https://vk.com/mynzzz" target="_blank">
+                  <li class="ms-item ms-vk"><i class="fa-brands fa-vk"></i></li>
+                </a>
+                <a href="https://instagram.com/gerasimov_developer" target="_blank">
+                  <li class="ms-item ms-instagram"><i class="fa-brands fa-instagram"></i></li>
+                </a>
+                <a href="https://www.tiktok.com/@mynzzzik" target="_blank">
+                  <li class="ms-item ms-tiktok"><i class="fa-brands fa-tiktok"></i></li>
+                </a>
+                <a href="https://www.youtube.com/@geras1mov" target="_blank">
+                  <li class="ms-item ms-youtube"><i class="fa-brands fa-youtube"></i></li>
+                </a>
+                <a href="https://github.com/geras1mov" target="_blank">
+                  <li class="ms-item ms-github"><i class="fa-brands fa-github"></i></li>
+                </a>
+                <a href="https://stackoverflow.com/users/20350678/geras1mov" target="_blank">
+                  <li class="ms-item ms-stack"><i class="fa-brands fa-stack-overflow"></i></li>
+                </a>
+                <a href="https://codepen.io/geras1mov" target="_blank">
+                  <li class="ms-item ms-codepen"><i class="fa-brands fa-codepen"></i></li>
+                </a>
+                <a href="https://www.reddit.com/u/gerasimov05" target="_blank">
+                  <li class="ms-item ms-reddit"><i class="fa-brands fa-reddit"></i></li>
+                </a>
+                <a href="https://discord.com/MyNzzz#0419" target="_blank">
+                  <li class="ms-item ms-discord"><i class="fa-brands fa-discord"></i></li>
+                </a>
+                <a href="https://t.me/geras1mov" target="_blank">
+                  <li class="ms-item ms-telegram"><i class="fa-brands fa-telegram"></i></li>
+                </a>
+              </ul>
+            </div>
           </div>
           <div class="pinned-projects">
             <div class="pp-header">
@@ -90,7 +128,7 @@
       <div class="footer">
         <div class="social">
           <ul class="footer-social">
-            <a href="https://github.com/is-mynzzz" target="_blank">
+            <a href="https://github.com/geras1mov" target="_blank">
               <li class="footer-github social-frame">
                 <i class="fa-brands fa-github"></i>
               </li>
