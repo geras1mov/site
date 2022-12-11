@@ -1,2 +1,2 @@
 # САЙТ ПОРФТОЛИО (БЕТА)
-https://is-mynzzz.github.io/site/
+https://geras1mov.github.io/site/
