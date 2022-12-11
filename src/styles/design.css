@@ -12,8 +12,9 @@ body, html {
 }
 a {
   text-decoration: none;
+  text-transform: none;
   list-style-type: none;
-  color: white;
+  color: #fff;
 }
 
 .container {
@@ -112,6 +113,132 @@ a {
   border-color: #fff;
   color: white;
 }
+
+.modal-social {
+  visibility: hidden;
+  background-color: rgb(83, 80, 96);
+  width: 50%;
+  height: 50%;
+  padding: 10px 10px;
+  border: 2px solid rgb(83, 80, 96);
+  border-radius: 20px;
+  box-shadow: 0 0 5000px rgb(83, 80, 96);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 15%;
+  bottom: 10%;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+  margin: 0 auto;
+}
+.modal-social__active {
+  visibility: visible;
+  opacity: 1;
+  z-index: 9999;
+  transition: .8s;
+}
+.modal-social__close {
+  padding: 5px 10px;
+  font-size: 20px;
+  position: absolute;
+  margin-left: 90%;
+  margin-bottom: 40%;
+  border: 3px solid #fff;
+  border-radius: 20px;
+  background: rgb(83, 80, 96);
+  color: #fff;
+}
+.modal-social__close:hover {
+  box-shadow: 0 0 20px #fff;
+  background: rgb(149, 146, 165);
+  color: rgb(51, 50, 53);
+  font-size: 25px;
+  padding: 10px 17px;
+  border-radius: 100%;
+}
+.modal-social__active .modal-social__close:hover {
+  transition: .3s;
+}
+.modal-social__content {
+  display: flex;
+  flex-flow: row wrap;
+  width:  100%;
+  justify-content: space-around;
+  margin-top: 4%;
+  margin-right: 4%;
+}
+.ms-item {
+  color: #fff;
+  border: 6px solid #fff;
+  border-radius: 100%;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 115px;
+  height: 110px;
+  padding: 3% 0;
+  margin: 10% 10%;
+}
+.ms-vk:hover {
+  color: rgba(0, 119, 255, 1);
+  border-color: rgba(0, 119, 255, 1);
+  box-shadow: 0 0 20px rgba(0, 119, 255, 1);
+}
+.ms-instagram:hover {
+  color: #bc2a8d;
+  border-color: #bc2a8d;
+  box-shadow: 0 0 20px #bc2a8d;
+}
+.ms-tiktok:hover {
+  color: #000000;
+  border-color: #000000;
+  box-shadow: 0 0 20px #000000;
+}
+.ms-youtube:hover {
+  color: #c4302b;
+  border-color: #c4302b;
+  box-shadow: 0 0 20px #c4302b;
+}
+.ms-github:hover {
+  color: #171515;
+  border-color: #171515;
+  box-shadow: 0 0 20px #171515;
+}
+.ms-stack:hover {
+  color: #f48024;
+  border-color: #f48024;
+  box-shadow: 0 0 20px #f48024;
+}
+.ms-codepen:hover {
+  color: #171515;
+  border-color: #171515;
+  box-shadow: 0 0 20px #171515;
+}
+.ms-reddit:hover {
+  color: #FF4300;
+  border-color: #FF4300;
+  box-shadow: 0 0 20px #FF4300;
+}
+.ms-discord:hover {
+  color: #7289da;
+  border-color: #7289da;
+  box-shadow: 0 0 20px #7289da;
+}
+.ms-telegram:hover {
+  color: rgba(42, 171, 238, 1);
+  border-color: rgba(42, 171, 238, 1);
+  box-shadow: 0 0 20px rgba(42, 171, 238, 1);
+}
+
+.hidden {
+  overflow: clip;
+}
+
 
 .pinned-projects {
   background-color: #353539;
